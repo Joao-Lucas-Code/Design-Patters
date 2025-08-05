@@ -41,12 +41,12 @@ class Address(StringReprMixin):
 
 if __name__ == "__main__":
 
-    luiz = Person('Luiz', 'Miranda')
-    endereco_luiz = Address('Av. Brasil', '250A')
-    luiz.add_address(endereco_luiz)
+    joao = Person('Joao', 'Gomes')
+    endereco_joao = Address('Av. Brasil', '250A')
+    joao.add_address(endereco_joao)
 
-    esposa_luiz = luiz.clone()
-    esposa_luiz.firstname = 'Letícia'
+    esposa_joao = joao.clone()
+    esposa_joao.firstname = 'Letícia'
 
-    print(luiz)
-    print(esposa_luiz)
+    print(joao)
+    print(esposa_joao)
